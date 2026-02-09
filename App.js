@@ -123,8 +123,7 @@ function App() {
       {list.map((item, index) => (
         <div key={index}>
           {item}
-          <button onClick={() => deleteItem(index)}>X</button>
-        </div>
+  </div>
       ))}
     </div>
   );
